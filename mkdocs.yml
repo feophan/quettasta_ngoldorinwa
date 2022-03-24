@@ -1,0 +1,25 @@
+site_name: Quettasta Goldorinwa
+site_url: https://feophan.github.io/quettasta_ngoldorinwa/
+       
+theme:
+    name: readthedocs
+    prev_next_buttons_location: none
+    custom_dir: overrides
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - abbr
+  - mdx_custom_span_class
+  - mdx_emdash
+  - attr_list   
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.progressbar
+
+extra_javascript:
+  - js/extra.js
+
+extra_css:
+  - stylesheets/extra.css
+  - https://use.fontawesome.com/releases/v5.12.0/css/all.css
